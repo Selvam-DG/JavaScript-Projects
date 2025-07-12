@@ -17,15 +17,17 @@ addButton.addEventListener( "click", () => {
 function addTask(text){
     const li = document.createElement('li');
     li.textContent = text ;
+
     const buttonGroup = document.createElement("div");
     buttonGroup.classList.add('button-group');
+    li.appendChild(buttonGroup);
 
-     const completeButton  = document.createElement('button');
+    const completeButton  = document.createElement('button');
     completeButton.textContent = "complete";
     completeButton.classList.add("complete-btn");
     completeButton.addEventListener( 'click', () => {
         li.classList.toggle("completed");
-        saveTasks
+        saveTasks();
 
     })
 
@@ -39,7 +41,7 @@ function addTask(text){
         saveTasks();
     });
 
-   li.appendChild(buttonGroup);
+   
     buttonGroup.appendChild(completeButton);
     buttonGroup.appendChild(delButton);
     taskList.appendChild(li);
