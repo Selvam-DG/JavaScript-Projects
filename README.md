@@ -8,9 +8,9 @@ I'm currently learning JavaScript by building real-world apps — from beginner-
 ##  Projects List
 
 | # | Project Name       | Description                        | Link |
-|--:|--------------------|------------------------------------|------|------------|
+|--:|--------------------|------------------------------------|------|
 | 01 |[Counter App](./01-counter/)      | Simple counter with increment/decrement | |
-| 02 | [ToDo List App](./02-ToDo%20List%20App/)      | Manage daily tasks with styling    | 
+| 02 | [ToDo List App](./02-ToDo%20List%20App/)      | Manage daily tasks with styling    | |
 | 03 | [Quiz App](./03-QuizApp/)          | Multiple choice quiz using JS logic | [View] | 
 | 04 | [Notes App](.NotesApp/)          | Add, delete, and save notes using localStorage | [View](https://codepen.io/Selvam-DG/full/JoYKQEm) |
 
