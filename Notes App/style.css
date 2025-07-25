@@ -1,0 +1,42 @@
+body{
+    font-family : Arail, sans-serif;
+    background :rgb(224, 222, 222);
+    margin : 0;
+    padding : 20px;
+}
+.app{
+    max-width : 600px;
+    margin : auto;
+}
+
+#addNoteBtn {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.note {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 15px;
+  position: relative;
+}
+
+.note textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: vertical;
+  font-size: 16px;
+}
+
+.deleteBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
